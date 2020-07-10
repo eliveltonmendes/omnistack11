@@ -1,6 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-import Logon from './pages/Logon';
+import Logon from './routes';
+
+import './global.css';
 
 function App() {
   return (
