@@ -13,7 +13,7 @@ export default function Profile(){
                 <img src={LogoImg} alt="Be The Hero"/>
                 <span>Bem vinda, APAD</span>
 
-                <Link className="button" to="/incidentes/new">Cadastrar novo caso</Link>
+                <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
                 <button type="button">
                     <FiPower size={18} color="#E02041" />
                 </button>
@@ -36,9 +36,7 @@ export default function Profile(){
                         <FiTrash2 size={20} color="#a8a8b3" />
                     </button>
                 </li>
-            </ul>
 
-            <ul>
                 <li>
                     <strong>Caso:</strong>
                     <p>Caso teste</p>
@@ -56,6 +54,21 @@ export default function Profile(){
             </ul>
 
             <ul>
+                <li>
+                    <strong>Caso:</strong>
+                    <p>Caso teste</p>
+
+                    <strong>Descrição:</strong>
+                    <p>Teste</p>
+
+                    <strong>Valor:</strong>
+                    <p>120</p>
+
+                    <button type="button">
+                        <FiTrash2 size={20} color="#a8a8b3" />
+                    </button>
+                </li>
+
                 <li>
                     <strong>Caso:</strong>
                     <p>Caso teste</p>
